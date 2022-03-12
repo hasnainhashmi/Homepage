@@ -35,6 +35,9 @@ body{
     border-bottom-right-radius: 10px;
     background-color: rgb(71, 140, 1);
     cursor: pointer;
+    top: 0;
+    z-index: 3000000000;
+    box-shadow: var(--box-shadow);
     transition: background-color 0.3s ease-in;
 }
 
